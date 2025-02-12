@@ -1,0 +1,5 @@
+a = input("Digite alguma coisa: ")
+print("O tipo primitivo desse valor pertence a classe: ", type(a))
+print("Só tem espaços?: ", a.isspace())
+print("É um número?: ", a.isnumeric())
+print("Qual é a quantidade de caracteres desse algo?: ", a.__len__())
