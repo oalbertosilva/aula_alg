@@ -18,5 +18,21 @@ if operacao in ("Adição", "soma", "adicao"):
     n2 = int(input("Digite outro valor: "))
     resultado = (n1 + n2)
     print("A soma dos números informados é: ", resultado)
-else:
-    print("Operação não encontrada, programa encerrado.")
+
+if operacao in ("diminuir", "menos", "subtrair"):
+    n1 = int(input("Digite um valor: "))
+    n2 = int(input("Digite outro valor: "))
+    resultado = (n1 - n2)
+    print("A sosubtração dos números informados é: ", resultado)
+
+if operacao in ("multiplicar", "vezes"):
+    n1 = int(input("Digite um valor: "))
+    n2 = int(input("Digite outro valor: "))
+    resultado = (n1 * n2)
+    print("A multiplicação dos números informados é: ", resultado)
+
+if operacao in ("dividir", "divisão"):
+    n1 = int(input("Digite um valor: "))
+    n2 = int(input("Digite outro valor: "))
+    resultado = (n1 / n2)
+    print("A multiplicação dos números informados é: ", resultado)
