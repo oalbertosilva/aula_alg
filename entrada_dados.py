@@ -12,7 +12,7 @@ n3 = float(input("Digite a terceira nota: "))
 
 media = (n1 + n2 + n3) / 3
 
-print("A média é: ", media)  # teste pra o github
+print("A média é: ", media)  
 
 if media >= 6.0:
     print("Aluno aprovado")
